@@ -30,6 +30,7 @@ public class Main {
         System.out.println("Last baked pizza: " + client2.getNewPizza());
 
         // Command test
+
         client1.executeCommand(new OrderPizza(PizzaFactory.Types.QUATTROSTAGIONI));
         client2.executeCommand(new OrderPizza(PizzaFactory.Types.NO_PIZZA));
     }
